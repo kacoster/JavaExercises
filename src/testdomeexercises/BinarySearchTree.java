@@ -1,7 +1,5 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ *TestDome BST solution 
  */
 package testdomeexercises;
 
@@ -22,19 +20,18 @@ class Node {
 
 public class BinarySearchTree {
     public static boolean contains(Node root, int value) {
-        
-        
+       
         if(root == null)
         {
-            return false;
-                  
+            return false;         
         }
+  
         if(root.value == value)
         {
             return true;
         }
        
-        if(root.value > value){
+        else if (root.value > value){
                 return (contains(root.left, value));
         }
         else{
@@ -52,6 +49,7 @@ public class BinarySearchTree {
         System.out.println(contains(n2, 3));
     }
 }
+
 
 
 
