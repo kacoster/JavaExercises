@@ -3,8 +3,7 @@
  */
 package testdomeexercises;
 
-/**
- *
+/*
  * @author kudat
  */
 public class Palindrome {
@@ -26,4 +25,5 @@ public class Palindrome {
         System.out.println(Palindrome.isPalindrome("Deleveled"));
     }
 }
+
 
